@@ -21,7 +21,7 @@ function johnLennonFacts (input){
   let output = [];
 
   while (i < input.length){
-    output.push(`${input[i]}!!!`);
+    output[i] = (`${input[i]}!!!`);
     i++;
   }
   return output;
